@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+    color: white;
+}
+.header {
+    font-family: monospace;
+    text-align: center;
+}
+.nav {
+    background-color: rgb(255, 255, 255);
+    width: 350px;
+    text-align: center;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 10px;
+    
+}
+.nav a {
+    font-family: cursive;
+    color: rgb(0, 162, 255);
+    text-decoration: none;
+    padding-right: 25px;
+}
+.nav a:hover {
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    color: rgb(195, 0, 255);
+}
+.artigo h2 {
+    color: rgb(98, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-decoration: overline;
+}
+.artigo h2:hover {
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+    color: blue;
+}
+.artigo p {
+    width: 300px;
+    margin: 10px auto;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.artigo .importante {
+    color: blueviolet;
+}
+div > img {
+    display: flex;
+    margin: 10px auto;
+    border-radius: 10px;
+}
